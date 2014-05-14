@@ -5,8 +5,8 @@ Forked & Redone: Mark Kalender (Markedagain)
 Date: 08/03/2013
 */
 function init_tabs() {
-	bindTab('tabtime_questions', '.journal.question,.journal.question-closed', false, true);
-	bindTab('tabtime_time', '.journal.has-time', true, true);
+	bindTab('history_questions', '.journal.question,.journal.question-closed', false, true);
+	bindTab('history_time', '.journal.has-time', true, true);
 	bindTab('history_private', '.journal.private-notes', false, true);
 	bindTab('history_comments', '.journal.has-notes', false, true);
 	bindTab('history_activity', '.journal.has-details', true, false);
