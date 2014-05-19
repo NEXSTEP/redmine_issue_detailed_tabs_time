@@ -3,7 +3,6 @@ require 'redmine'
 require 'issue_detailed_tabs/hooks/base_html_head_hook'
 require 'issue_detailed_tabs/hooks/my_account_prefs_hook'
 
-require_dependency 'issue_detailed_tabs/patches/issues_helper_patch'
 require_dependency 'issue_detailed_tabs/patches/user_preference_patch'
 
 Redmine::Plugin.register :redmine_issue_detailed_tabs_time do

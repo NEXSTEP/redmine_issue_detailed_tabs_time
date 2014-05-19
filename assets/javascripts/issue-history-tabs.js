@@ -22,8 +22,8 @@ function bindTab(tab, journal, show_activity, show_note){
 //			window.history.replaceState(null,document.title,'?tab='+tab);
 //		}
 		$('.journal').hide();
-		$(journal + ' > .details').toggle(show_activity);
-		$(journal + ' > .wiki').toggle(show_note);
+		$(journal + ' .details').toggle(show_activity);
+		$(journal + ' .wiki').toggle(show_note);
 		$(journal).show();
 	});
 }
