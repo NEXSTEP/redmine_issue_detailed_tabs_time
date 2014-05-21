@@ -12,7 +12,7 @@
   reply_links = authorize_for('issues', 'edit')
 
   entries = []
-  entries = journals if can_view_all || can_view_commens || can_view_activity
+  entries = journals if can_view_all || can_view_comments || can_view_activity
   entries += @issue.time_entries if can_view_time_entries 
   
   entries.sort! { |x,y| x.created_on <=> y.created_on }
